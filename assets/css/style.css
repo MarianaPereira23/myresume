@@ -1,0 +1,39 @@
+/*    HEADER    */
+
+header {
+    margin: 0;
+    background-color: #808080;
+    height: 80px;
+    width: 100%;
+}
+
+.navbar {
+    height: 100%;
+}
+
+.name {
+    color: #fafafa;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.nav {
+    text-align: right;
+}
+
+.menuitem a {
+    text-decoration: none;
+    color: #fafafa;
+    font-size: 15px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-right: 10px;
+}
+
+.menuitem a:hover { /* This hover was taken from the Love Running walkthrough project */
+    border-bottom: 1px solid #fafafa;
+}
+
+.active {
+    border-bottom: 1px solid #fafafa;
+}
