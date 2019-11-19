@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Lato300,400,500|Oswald300,400,500');
+
 /*    HEADER    */
 
 header {
@@ -12,22 +14,30 @@ header {
 }
 
 .name {
-    color: #fafafa;
+    font-family: Oswald, sans-serif; /*????*/
+    font-size: 30px; /*????*/
+    font-weight: 300; /*????*/
     letter-spacing: 2px;
+    color: #fafafa; 
     text-transform: uppercase;
 }
 
-.nav {
-    text-align: right;
+.menucontainer {
+    width: 100%;
+    margin: 0;
+    text-align: right; /* NAO ESTA A FUNCIONAR!!!!! */
 }
 
 .menuitem a {
     text-decoration: none;
+    font-family: Oswald, sans-serif; /*????*/
+    font-weight: 400; /*????*/
     color: #fafafa;
     font-size: 15px;
     letter-spacing: 1px;
     text-transform: uppercase;
     margin-right: 10px;
+    text-align: right;
 }
 
 .menuitem a:hover { /* This hover was taken from the Love Running walkthrough project */
@@ -36,4 +46,64 @@ header {
 
 .active {
     border-bottom: 1px solid #fafafa;
+}
+
+/*    FOOTER    */
+
+footer {
+    margin: 0;
+    background-color: #808080;
+    height: 100px;
+    width: 100%;
+}
+
+.f-heading h6 {
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    color: #fafafa;
+    text-align: center;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-weight: 300;
+    margin-top: 15px;
+}
+
+.f-contacts,
+.f-download {
+    font-family: Lato, sans-serif;
+    color: #fafafa;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 300;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.f-download-link:hover { /* This hover was taken from the Love Running walkthrough project */
+    border-bottom: 1px solid #fafafa;
+    text-decoration: none;
+    color: #fafafa;
+}
+
+.g-social li a {
+    display: inline-block;
+    text-align: center;
+}
+
+.f-social {
+    display: inline-block;
+    text-align: center;
+}
+
+.f-social li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 15px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background-color: #666666;
+    margin-top: 8px;
 }
