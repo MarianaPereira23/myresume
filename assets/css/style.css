@@ -6,7 +6,12 @@
     background: url('../images/homecover.jpg');
     background-repeat: no-repeat;
     background-position: right center;
-    height: 600px;
+    height: 900px;
+    width: 100%;
+}
+
+.myphoto {
+    border-radius: 50%;
     width: 100%;
 }
 
@@ -20,7 +25,7 @@ header {
 
 .navbar {
     height: 100%;
-    padding: 0px 15px;
+    padding: 0px 25px;
 }
 
 .name {
@@ -59,7 +64,7 @@ header {
     font-size: 20px;
     letter-spacing: 1px;
     text-transform: uppercase;
-    margin-right: 15px;
+    margin-left: 15px;
 }
 
 .menuitem a:hover { /* This hover was taken from the Love Running walkthrough project */
@@ -73,7 +78,7 @@ header {
 /*    HOME    */
 
 .home {
-    padding-top: 200px;
+    padding-top: 350px;
     text-align: center;
     vertical-align: middle;
 }
@@ -85,9 +90,10 @@ header {
     font-size: 40px;
     letter-spacing: 1px;
     text-transform: uppercase;
-    padding: 0;
+    padding: 10px 0px;
     margin: 0;
-    border: 2px solid #313639;
+    border-top: 2px solid #313639;
+    border-bottom: 2px solid #313639;
     display: inline-block;
 }
 
@@ -168,14 +174,32 @@ footer {
     background-color: #f7dad5;
 }
 
-.aboutme h2 {
+.aboutmetitle {
+    height: 60px;
+}
+
+.aboutmetitle h2 {
     font-family: Oswald, sans-serif;
     font-size: 25px;
     text-transform: uppercase;
     letter-spacing: 1px;
     color:#313639;
     font-weight: 300;
-    padding-left: 15px;
+    padding-left: 25px;
+    padding-top: 15px;
+}
+
+.aboutmecontent {
+    padding-bottom: 60px;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+.aboutmeinfo {
+    font-family: Lato, sans-serif;
+    font-size: 16px;
+    color: #313639;
+    text-align: justify;
 }
 
 /*    EDUCATION    */
@@ -184,14 +208,23 @@ footer {
     background-color: #313639;
 }
 
-.education h2 {
+.educationtitle {
+    height: 60px;
+}
+
+.educationtitle h2 {
     font-family: Oswald, sans-serif;
     font-size: 25px;
     text-transform: uppercase;
     letter-spacing: 1px;
     color:#fafafa;
     font-weight: 300;
-    padding-left: 15px;
+    padding-left: 25px;
+    padding-top: 15px;
+}
+
+.educationcontent {
+    padding: 20px 25px;
 }
 
 /*    LANGUAGES    */
@@ -200,14 +233,23 @@ footer {
     background-color: #fafafa;
 }
 
-.languages h2 {
+.languagestitle {
+    height: 60px;
+}
+
+.languagestitle h2 {
     font-family: Oswald, sans-serif;
     font-size: 25px;
     text-transform: uppercase;
     letter-spacing: 1px;
     color:#313639;
     font-weight: 300;
-    padding-left: 15px;
+    padding-left: 25px;
+    padding-top: 15px;
+}
+
+.languagescontent {
+    padding: 20px 25px;
 }
 
 /*    WORK EXPERIENCE    */
@@ -216,12 +258,48 @@ footer {
     background-color: #f7dad5;
 }
 
-.work-experience h2 {
+.work-experiencetitle {
+    height: 60px;
+}
+
+.work-experiencetitle h2 {
     font-family: Oswald, sans-serif;
     font-size: 25px;
     text-transform: uppercase;
     letter-spacing: 1px;
     color:#313639;
     font-weight: 300;
-    padding-left: 15px;
+    padding-left: 25px;
+    padding-top: 15px;
+}
+
+.work-experiencecontent {
+    padding: 20px 25px;
+}
+
+.date1,
+.date2,
+.date3,
+.date4,
+.date5 {
+    border-right: 1px solid #313639;
+    font-family: Lato, sans-serif;
+    font-size: 16px;
+    color: #313639;
+    text-align: right;
+}
+
+.experience1,
+.experience2,
+.experience3,
+.experience4,
+.experience5 {
+    font-family: Lato, sans-serif;
+    font-size: 16px;
+    color: #313639;
+    text-align: justify;
+}
+
+.headingstrong {
+    font-weight: bold;
 }
