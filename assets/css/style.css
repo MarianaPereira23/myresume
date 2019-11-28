@@ -14,7 +14,6 @@
 .myphoto {
     border-radius: 50%;
     width: 100%;
-    display: inline;
 }
 
 /*    HEADER    */
@@ -207,7 +206,6 @@ footer {
 
 .aboutmephoto {
     text-align: left;
-    vertical-align: middle;
 }
 
 /*    EDUCATION    */
