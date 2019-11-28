@@ -5,9 +5,10 @@
 .image {
     background: url('../images/homecover.jpg');
     background-repeat: no-repeat;
-    background-position: right center;
-    height: 900px;
+    background-position: center;
+    background-size: cover;
     width: 100%;
+    height: 900px;
 }
 
 .myphoto {
@@ -175,22 +176,22 @@ footer {
 }
 
 .aboutmetitle {
-    height: 60px;
+    height: 70px;
 }
 
 .aboutmetitle h2 {
     font-family: Oswald, sans-serif;
-    font-size: 25px;
+    font-size: 30px;
     text-transform: uppercase;
     letter-spacing: 1px;
     color:#313639;
-    font-weight: 300;
+    font-weight: 400;
     padding-left: 25px;
-    padding-top: 15px;
+    padding-top: 20px;
 }
 
 .aboutmecontent {
-    padding-bottom: 60px;
+    padding-bottom: 70px;
     padding-right: 25px;
     padding-left: 25px;
 }
@@ -200,6 +201,11 @@ footer {
     font-size: 16px;
     color: #313639;
     text-align: justify;
+    margin-top: 10px;
+}
+
+.aboutmephoto {
+    text-align: left;
 }
 
 /*    EDUCATION    */
@@ -209,47 +215,59 @@ footer {
 }
 
 .educationtitle {
-    height: 60px;
+    height: 70px;
 }
 
 .educationtitle h2 {
     font-family: Oswald, sans-serif;
-    font-size: 25px;
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color:#fafafa;
+    font-weight: 400;
+    padding-left: 25px;
+    padding-top: 20px;
+}
+
+.educationcontent {
+    padding: 20px 25px 90px;
+}
+
+.up {
+    border-bottom: 1px solid #fafafa;
+    margin: 10px 150px;
+}
+
+.down {
+    margin-top: 10px;
+}
+
+.educationinfo {
+    font-family: Lato, sans-serif;
+    font-size: 16px;
+    color: #fafafa;
+    text-align: center;
+}
+
+.languages h3 {
+    font-family: Oswald, sans-serif;
+    font-size: 20px;
     text-transform: uppercase;
     letter-spacing: 1px;
     color:#fafafa;
     font-weight: 300;
-    padding-left: 25px;
-    padding-top: 15px;
+    margin-top: 20px;
 }
 
-.educationcontent {
-    padding: 20px 25px;
+.languageslist {
+    font-family: Lato, sans-serif;
+    font-size: 16px;
+    color: #fafafa;
+    margin-top: 15px;
 }
 
-/*    LANGUAGES    */
-
-.languages {
-    background-color: #fafafa;
-}
-
-.languagestitle {
-    height: 60px;
-}
-
-.languagestitle h2 {
-    font-family: Oswald, sans-serif;
-    font-size: 25px;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    color:#313639;
-    font-weight: 300;
-    padding-left: 25px;
-    padding-top: 15px;
-}
-
-.languagescontent {
-    padding: 20px 25px;
+.languageslist li {
+    margin-top: 5px;
 }
 
 /*    WORK EXPERIENCE    */
@@ -259,22 +277,22 @@ footer {
 }
 
 .work-experiencetitle {
-    height: 60px;
+    height: 70px;
 }
 
 .work-experiencetitle h2 {
     font-family: Oswald, sans-serif;
-    font-size: 25px;
+    font-size: 30px;
     text-transform: uppercase;
     letter-spacing: 1px;
     color:#313639;
-    font-weight: 300;
+    font-weight: 400;
     padding-left: 25px;
-    padding-top: 15px;
+    padding-top: 20px;
 }
 
 .work-experiencecontent {
-    padding: 20px 25px;
+    padding: 20px 25px 40px;
 }
 
 .date1,
