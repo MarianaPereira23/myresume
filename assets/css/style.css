@@ -14,6 +14,7 @@
 .myphoto {
     border-radius: 50%;
     width: 100%;
+    display: inline;
 }
 
 /*    HEADER    */
@@ -191,7 +192,7 @@ footer {
 }
 
 .aboutmecontent {
-    padding-bottom: 70px;
+    padding-bottom: 40px;
     padding-right: 25px;
     padding-left: 25px;
 }
@@ -206,6 +207,7 @@ footer {
 
 .aboutmephoto {
     text-align: left;
+    vertical-align: middle;
 }
 
 /*    EDUCATION    */
@@ -230,116 +232,54 @@ footer {
 }
 
 .educationcontent {
-    padding: 20px 25px 90px;
+    padding: 20px 25px 40px;
 }
 
-/*This part was written by CP Lepag and adapted by me, the website from where it was taken is listed on the README file*/
-
-.circle {
-    font-family: Oswald, sans-serif;
-    font-weight: 400;
-    padding: 15px 20px;
-    border-radius: 50%;
-    background-color: #fafafa;
-    color: #313639;
-    max-height: 50px;
-    z-index: 2;
+.educationitems {
+    padding-left: 10px;
 }
 
-.timelinesection {
-    display: flex;
-    align-items: center;
-}
+/*Timeline taken from the Rosie Resume walkthrough project*/
 
-.col-md-6 h5 {
+.timeline-item {
+    position: relative;
+    color: #fafafa;
+    border-left: 1px solid;
     font-family: Lato, sans-serif;
     font-size: 16px;
-    font-weight: bold;
-    color: #fafafa;
+    padding: 60px 30px 0px 30px;
 }
 
-.col-md-6 p {
-    font-family: Lato, sans-serif;
-    font-size: 16px;
-    color: #fafafa;
+.timeline-item p {
+    padding-top: 10px;
+    margin: 0px;
 }
 
-.timelinesection .col-md-2 {
-    display: inline-flex;
-    align-self: stretch;
-    align-items: center;
-    justify-content: center;
-}
-
-.timelinesection .col-md-2::after {
-    content: '';
+.timeline-item:before {
+    content: attr(data-dates);
     position: absolute;
-    border-left: 3px solid #fafafa;
-    z-index: 1;
-}
-
-.timelinesection .col-md-2 .bottom::after {
-    height: 50%;
-    left: 50%;
-    top: 50%;
-}
-
-.timelinesection .col-md-2 .full::after {
-    height: 100%;
-    left: calc(50% - 3px);
-}
-
-.timelinesection .col-md-2 .top::after {
-    height: 50%;
-    left: 50%;
-    top: 0;
-}
-
-.timeline div {
+    left: 40px;
+    top: 45px;
+    display: block;
+    font-family: Lato, sans-serif;
+    font-size: 16px;
     padding: 0;
-    height: 40px;
+    margin:0;
 }
 
-.timeline hr {
-    border-top: 3px solid #fafafa;
-    margin: 0;
-    top: 17px;
-    position: relative;
+.timeline-item:after {
+    width: 12px;
+    height: 12px;
+    display: block;
+    top: 40px;
+    position: absolute;
+    left: -6px;
+    border-radius: 12px;
+    content: '';
+    background-color: #fafafa;
 }
 
-.timeline .col-md-2 {
-    display: flex;
-    overflow: hidden;
-}
-
-.timeline .corner {
-    border: 3px solid #fafafa;
-    width: 100%;
-    position: relative;
-    border-radius: 15px;
-}
-
-.timeline .top-right {
-    left: 50%;
-    top: -50%;
-}
-
-.timeline .left-bottom {
-    left: -50%;
-    top: calc(50% - 3px);
-}
-
-.timeline .top-left {
-    left: -50%;
-    top: -50%;
-}
-
-.timeline .right-bottom {
-    left: 50%;
-    top: calc(50% - 3px);
-}
-
-/*Here ends the part written by CP Lepag*/
+/*End of timeline*/
 
 .languages h3 {
     font-family: Oswald, sans-serif;
@@ -348,7 +288,7 @@ footer {
     letter-spacing: 1px;
     color:#fafafa;
     font-weight: 300;
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
 .languageslist {
