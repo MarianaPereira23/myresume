@@ -13,37 +13,42 @@
 <body>
 
 <!--    HEADER & HOME    -->
-    <div class="image">
-        <header>
-            <div class="row no-gutters navbar">
-                <div class="col-md-4 navbar">
-                    <h2 class="name">Mariana Pereira</h2>
+    <section class="home">
+         <div class="row container-fluid">
+            <nav class="navbar navbar-expand-lg">
+                <div class="navbar-notcollapsed">
+                    <span class="navbar-brand name">Mariana Pereira</span>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarcollapse" aria-controls="navbarcollapse" aria-expanded="false" aria-label="Toggle navigation">
+                        <span><i class="fas fa-bars"></i></span>
+                    </button>
                 </div>
-                <div class="col-md-8 nav">
-                    <ul class="list-inline-item menucontainer">
-                        <li class="list-inline-item menuitem">
-                            <!-- The class active that will be styled to make the current page underlined was taken from the Love Running walkthrough project -->
-                            <a href="index.html" class="active">Home</a>
+                <div class="collapse navbar-collapse navigation" id="navbarcollapse">
+                    <ul class="nav navbar-nav">
+                        <!-- The class active that will be styled to make the current page underlined was taken from the Love Running walkthrough project -->
+                        <li class="nav-item active">
+                            <a href="#" class="nav-link">Home</a>
                         </li>
-                        <li class="list-inline-item menuitem">
-                            <a href="#">Architecture</a>
+                        <li class="nav-item"> 
+                            <a href="#" class="nav-link">Architecture</a>
                         </li>
-                        <li class="list-inline-item menuitem">
-                            <a href="#">Full Stack Web Development</a>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Full Stack Web Development</a>
                         </li>
-                        <li class="list-inline-item menuitem">
-                            <a href="#" target="_blank">Download CV</a>
+                        <li class="nav-item">
+                            <a href="#" target="_blank" class="nav-link">Download CV</a>
                         </li>
                     </ul>
                 </div>
-            </div>
-        </header>
-        <div class="row no-gutters home">
+            </nav>
+        </div>
+        <div class="row no-gutters title">
             <div class="col">
                 <h1 class="home-heading">Architect & Future Full Stack Web Developer</h1>
             </div>
         </div>
-    </div>
+    </section>
+        
+
 
 <!--    ABOUT ME    -->
     <section class="aboutme">

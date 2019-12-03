@@ -2,13 +2,12 @@
 
 /*    IMAGES    */
 
-.image {
+.home {
     background: url('../images/homecover.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     width: 100%;
-    height: 900px;
 }
 
 .myphoto {
@@ -24,85 +23,58 @@
     width: 100%;
 }
 
-/*    HEADER    */
-
-header {
-    margin: 0;
-    height: 80px;
-    width: 100%;
-}
-
-.navbar {
-    height: 100%;
-    padding: 0px 25px;
-}
+/*    HEADER & HOME   */
 
 .name {
     font-family: Oswald, sans-serif;
-    font-size: 30px; 
-    font-weight: 500; 
+    font-size: 30px;
+    font-weight: 400;
     letter-spacing: 2px;
-    color: #313639; 
     text-transform: uppercase;
-    height: 100%;
-    padding-top: 25px;
+    color: #187f8f;
+    padding-top: 20px;
 }
 
-.nav {
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    text-align: right;
+.navigation {
+    padding-top: 15px;
 }
 
-.menucontainer {
-    width: 100%;
-    height: 100%;
-    margin: 0;
-}
-
-.menuitem {
-    padding-top: 30px;
-}
-
-.menuitem a {
+.nav-item a {
     text-decoration: none;
-    font-family: Oswald, sans-serif; 
-    font-weight: 300; 
-    color: #313639;
+    font-family: Oswald, sans-serif;
     font-size: 20px;
+    font-weight: 300;
     letter-spacing: 1px;
     text-transform: uppercase;
+    color:  #187f8f;
+    text-align: right;
     margin-left: 15px;
 }
 
-.menuitem a:hover { /* This hover was taken from the Love Running walkthrough project */
-    border-bottom: 1px solid #313639;
-}
-
 .active {
-    border-bottom: 1px solid #313639;
+    border-bottom: 1px solid  #187f8f;
 }
 
-/*    HOME    */
+.nav-item a:hover { /* This hover was taken from the Love Running walkthrough project */
+    border-bottom: 1px solid  #187f8f;
+}
 
-.home {
-    padding-top: 350px;
+.title {
     text-align: center;
-    vertical-align: middle;
+    padding: 250px 0px;
 }
 
 .home-heading {
     font-family: Oswald, sans-serif;
     font-weight: 300;
-    color: #313639;
+    color:  #187f8f;
     font-size: 40px;
     letter-spacing: 1px;
     text-transform: uppercase;
     padding: 10px 0px;
     margin: 0;
-    border-top: 2px solid #313639;
-    border-bottom: 2px solid #313639;
+    border-top: 2px solid  #187f8f;
+    border-bottom: 2px solid  #187f8f;
     display: inline-block;
 }
 
