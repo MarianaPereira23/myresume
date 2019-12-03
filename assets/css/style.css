@@ -25,13 +25,17 @@
 
 /*    HEADER & HOME   */
 
+.nav-container {
+    position: absolute;
+}
+
 .name {
     font-family: Oswald, sans-serif;
     font-size: 30px;
     font-weight: 400;
     letter-spacing: 2px;
     text-transform: uppercase;
-    color: #187f8f;
+    color: #fafafa!important;
     padding-top: 20px;
 }
 
@@ -46,35 +50,35 @@
     font-weight: 300;
     letter-spacing: 1px;
     text-transform: uppercase;
-    color:  #187f8f;
+    color:  #fafafa!important;
     text-align: right;
     margin-left: 15px;
 }
 
 .active {
-    border-bottom: 1px solid  #187f8f;
+    border-bottom: 1px solid  #fafafa;
 }
 
-.nav-item a:hover { /* This hover was taken from the Love Running walkthrough project */
-    border-bottom: 1px solid  #187f8f;
+.nav-item a:hover { /*This hover was taken from the Rosie Resume walkthrough project*/
+    border-bottom: 1px solid #fafafa;
 }
 
 .title {
     text-align: center;
-    padding: 250px 0px;
+    padding: 300px 0px;
 }
 
 .home-heading {
     font-family: Oswald, sans-serif;
     font-weight: 300;
-    color:  #187f8f;
+    color:  #fafafa;
     font-size: 40px;
     letter-spacing: 1px;
     text-transform: uppercase;
     padding: 10px 0px;
     margin: 0;
-    border-top: 2px solid  #187f8f;
-    border-bottom: 2px solid  #187f8f;
+    border-top: 2px solid  #fafafa;
+    border-bottom: 2px solid  #fafafa;
     display: inline-block;
 }
 
@@ -333,4 +337,3 @@ footer {
 }
 
 /*    MEDIA QUERIES    */
-
