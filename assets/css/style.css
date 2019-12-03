@@ -16,6 +16,14 @@
     width: 70%;
 }
 
+.educationphoto {
+    width: 100%;
+}
+
+.workphoto {
+    width: 100%;
+}
+
 /*    HEADER    */
 
 header {
@@ -351,3 +359,6 @@ footer {
 .headingstrong {
     font-weight: bold;
 }
+
+/*    MEDIA QUERIES    */
+
