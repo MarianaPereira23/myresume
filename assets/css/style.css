@@ -13,20 +13,41 @@
 .myphoto {
     border-radius: 50%;
     width: 70%;
+    background-position: center;
 }
 
 .educationphoto {
     width: 100%;
+    background-position: center;
 }
 
 .workphoto {
     width: 100%;
+    background-position: center;
+}
+
+.photocontainer {
+    margin: 0px;
+    padding: 0px;
 }
 
 /*    HEADER & HOME   */
 
+.home {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
 .nav-container {
     position: absolute;
+    padding: 0px;
+    height: 90px;
+}
+
+.navbar {
+    padding: 0px 25px;
+    height: 100%;
 }
 
 .name {
@@ -36,11 +57,21 @@
     letter-spacing: 2px;
     text-transform: uppercase;
     color: #fafafa!important;
-    padding-top: 20px;
+    padding-top: 17.5px;
+    height: 100%;
+}
+
+.navbar-toggler {
+    border: transparent;
 }
 
 .navigation {
-    padding-top: 15px;
+    height: 100%;
+}
+
+.navbar-nav {
+    height: 100%;
+    padding: 30px 0px;
 }
 
 .nav-item a {
@@ -53,14 +84,7 @@
     color:  #fafafa!important;
     text-align: right;
     margin-left: 15px;
-}
-
-.active {
-    border-bottom: 1px solid  #fafafa;
-}
-
-.nav-item a:hover { /*This hover was taken from the Rosie Resume walkthrough project*/
-    border-bottom: 1px solid #fafafa;
+    padding: 0;
 }
 
 .title {
@@ -72,7 +96,7 @@
     font-family: Oswald, sans-serif;
     font-weight: 300;
     color:  #fafafa;
-    font-size: 40px;
+    font-size: 30px;
     letter-spacing: 1px;
     text-transform: uppercase;
     padding: 10px 0px;
@@ -87,7 +111,7 @@
 footer {
     margin: 0;
     background-color: #313639;
-    height: 100px;
+    height: 100%;
     width: 100%;
 }
 
@@ -157,6 +181,9 @@ footer {
 
 .aboutme {
     background-color: #f7dad5;
+    width: 100%;
+    margin: 0px;
+    padding: 0px 25px 0px 0px;
 }
 
 .aboutmetitle {
@@ -175,9 +202,7 @@ footer {
 }
 
 .aboutmecontent {
-    padding-bottom: 40px;
-    padding-right: 25px;
-    padding-left: 25px;
+    padding: 0px 0px 40px;
 }
 
 .aboutmeinfo {
@@ -186,16 +211,16 @@ footer {
     color: #313639;
     text-align: justify;
     margin-top: 10px;
-}
-
-.aboutmephoto {
-    text-align: center;
+    padding: 0px 0px 0px 15px;
 }
 
 /*    EDUCATION    */
 
 .education {
     background-color: #313639;
+    width: 100%;
+    margin: 0px;
+    padding: 0px 0px 0px 25px;
 }
 
 .educationtitle {
@@ -209,16 +234,15 @@ footer {
     letter-spacing: 1px;
     color:#fafafa;
     font-weight: 400;
-    padding-left: 25px;
     padding-top: 20px;
 }
 
 .educationcontent {
-    padding: 20px 25px 40px;
+    padding-top: 20px;
 }
 
 .educationitems {
-    padding-left: 10px;
+    padding: 0px 10px 40px 0px;
 }
 
 /*Timeline taken from the Rosie Resume walkthrough project*/
@@ -263,6 +287,10 @@ footer {
 
 /*End of timeline*/
 
+.languages {
+    padding-bottom: 20px;
+}
+
 .languages h3 {
     font-family: Oswald, sans-serif;
     font-size: 20px;
@@ -288,6 +316,9 @@ footer {
 
 .work-experience {
     background-color: #f7dad5;
+    width: 100%;
+    margin: 0px;
+    padding: 0px 25px 0px;
 }
 
 .work-experiencetitle {
@@ -301,12 +332,15 @@ footer {
     letter-spacing: 1px;
     color:#313639;
     font-weight: 400;
-    padding-left: 25px;
     padding-top: 20px;
 }
 
 .work-experiencecontent {
-    padding: 20px 25px 40px;
+    padding-top: 20px;
+}
+
+.work-experienceitems {
+    padding: 0px 25px 40px 10px;
 }
 
 .date1,
@@ -319,6 +353,7 @@ footer {
     font-size: 16px;
     color: #313639;
     text-align: justify;
+    padding-left: 10px!important;
 }
 
 .experience1,
@@ -330,6 +365,7 @@ footer {
     font-size: 16px;
     color: #313639;
     text-align: right;
+    padding-right: 10px!important;
 }
 
 .headingstrong {
@@ -337,3 +373,51 @@ footer {
 }
 
 /*    MEDIA QUERIES    */
+
+@media (min-width: 992px) {
+    .active {
+        border-bottom: 1px solid  #fafafa;
+    }
+
+    .nav-item a:hover { /*This hover was taken from the Rosie Resume walkthrough project*/
+        border-bottom: 1px solid #fafafa;
+    }
+}
+
+@media (min-width: 541px) and (max-width: 991px) {
+    .myphoto,
+    .educationphoto,
+    .workphoto {
+        display: none;
+    }
+
+    .active {
+        font-weight: bold;
+    }
+
+    .nav-item a:hover {
+        font-weight: bold;
+    }
+}
+
+@media(max-width: 540px) {
+    .myphoto,
+    .educationphoto,
+    .workphoto {
+        display: none;
+    }
+
+    .active {
+        font-weight: bold;
+    }
+
+    .nav-item a:hover {
+        font-weight: bold;
+    }
+
+    .name {
+        font-size: 20px;
+        height: 100%;
+        padding-top: 30px;
+    }
+}
