@@ -126,44 +126,15 @@ footer {
     margin-top: 15px;
 }
 
-.f-contacts {
-    font-family: Lato, sans-serif;
-    color: #fafafa;
-    text-align: center;
-    font-size: 16px;
-    font-weight: 300;
-    margin-top: 10px;
-    text-decoration: none;
-}
-
-.f-download {
-    display: inline-block;
-    text-align: center;
-}
-
-.f-download a i { /* This style was taken from the Rosie Resume walkthrough project */
-    width: 32px;
-    height: 32px;
-    padding: 12px 0;
-    border-radius: 50%;
-    font-size: 15px;
-    line-height: 7px;
-    text-align: center;
-    color: #313639;
-    background-color: #f7dad5;
-    margin-top: 8px;
-}
-
-.g-social li a {
-    display: inline-block;
-    text-align: center;
-}
-
+.f-contacts,
+.f-download,
 .f-social {
     display: inline-block;
     text-align: center;
 }
 
+
+.f-download a i,
 .f-social li a i { /* This style was taken from the Rosie Resume walkthrough project */
     width: 32px;
     height: 32px;
@@ -176,6 +147,7 @@ footer {
     background-color: #f7dad5;
     margin-top: 8px;
 }
+
 
 /*    ABOUT ME    */
 
