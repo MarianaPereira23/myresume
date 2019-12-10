@@ -106,6 +106,13 @@
     display: inline-block;
 }
 
+.home-color {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    background-color: #313639;
+}
+
 /*    FOOTER    */
 
 footer {
@@ -133,7 +140,7 @@ footer {
     text-align: center;
 }
 
-
+.f-contacts a i,
 .f-download a i,
 .f-social li a i { /* This style was taken from the Rosie Resume walkthrough project */
     width: 32px;
