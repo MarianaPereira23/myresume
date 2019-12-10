@@ -110,6 +110,7 @@
     width: 100%;
     margin: 0px;
     padding: 0px;
+    height: 90px;
     background-color: #313639;
 }
 
@@ -349,6 +350,92 @@ footer {
 
 .headingstrong {
     font-weight: bold;
+}
+
+/*    ARCHITECTURE    */
+
+.architecture {
+    background-color: #f7dad5;
+    width: 100%;
+    margin: 0px;
+    padding: 0px 25px 0px;
+}
+
+.architecturetitle {
+    height: 70px;
+}
+
+.architecturetitle h2 {
+    font-family: Oswald, sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color:#313639;
+    font-weight: 400;
+    padding-top: 20px;
+}
+
+.architecturecontent {
+    padding-top: 20px;
+}
+
+.architecturecontent .skills,
+.architecturecontent .portfolio {
+    padding-bottom: 20px;
+    width: 100%;
+}
+
+.architecturecontent .skills h3,
+.architecturecontent .portfolio h3 {
+    font-family: Oswald, sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color:#363139;
+    font-weight: 300;
+}
+
+/*    WEBDEVELOPMENT    */
+
+.webdevelopment {
+    background-color: #f7dad5;
+    width: 100%;
+    margin: 0px;
+    padding: 0px 25px 0px;
+}
+
+.webdtitle {
+    height: 70px;
+}
+
+.webdtitle h2 {
+    font-family: Oswald, sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color:#313639;
+    font-weight: 400;
+    padding-top: 20px;
+}
+
+.webdcontent {
+    padding-top: 20px;
+}
+
+.webdcontent .skills,
+.webdcontent .portfolio {
+    padding-bottom: 20px;
+    width: 100%;
+}
+
+.webdcontent .skills h3,
+.webdcontent .portfolio h3 {
+    font-family: Oswald, sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color:#363139;
+    font-weight: 300;
 }
 
 /*    MEDIA QUERIES    */
