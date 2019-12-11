@@ -31,6 +31,11 @@
     padding: 0px;
 }
 
+.projectphoto {
+    width: 100%;
+    background-size: cover;
+}
+
 /*    HEADER & HOME   */
 
 .home {
@@ -352,7 +357,7 @@ footer {
     font-weight: bold;
 }
 
-/*    ARCHITECTURE    */
+/*    ARCHITECTURE AND WEB-DEVELOPMENT    */
 
 .architecture {
     background-color: #f7dad5;
@@ -397,22 +402,35 @@ footer {
 
 .skillslist {
     text-align: center;
+    padding: 0;
 }
 
 .progresscircle {
-    border: 5px solid #fafafa;
+    border: 4px solid #fafafa;
     border-radius: 50%;
-    width: 100px;
-    height: 100px;
+    width: 125px;
+    height: 125px;
     text-align: center;
     color: #313639;
     font-family: Lato, sans-serif;
     font-size: 16px;
-    padding: 35px 0px;
-    margin: 0px 0px 10px 50px;
+    text-transform: uppercase;
+    font-weight: 300;
+    padding: 47px 0px;
+    margin: 25px 25px 25px 25px!important;
 }
 
-/*    WEBDEVELOPMENT    */
+.projectlist {
+    list-style-type: upper-roman;
+}
+
+.projecttitle {
+    font-family: Lato, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
 
 .webdevelopment {
     background-color: #f7dad5;
