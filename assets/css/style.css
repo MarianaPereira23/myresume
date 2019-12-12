@@ -50,6 +50,10 @@
     height: 90px;
 }
 
+.colortransparency {
+    background-color: rgba(49,54,57,0.25)
+}
+
 .navbar {
     padding: 0px 25px;
     height: 100%;
@@ -192,7 +196,7 @@ footer {
 
 .aboutmeinfo {
     font-family: Lato, sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     color: #313639;
     text-align: justify;
     margin-top: 10px;
@@ -227,7 +231,7 @@ footer {
 }
 
 .educationitems {
-    padding: 0px 10px 40px 0px;
+    padding: 0px 10px 40px 10px;
 }
 
 /*Timeline taken from the Rosie Resume walkthrough project*/
@@ -237,7 +241,7 @@ footer {
     color: #fafafa;
     border-left: 1px solid;
     font-family: Lato, sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     padding: 60px 30px 0px 30px;
 }
 
@@ -253,7 +257,7 @@ footer {
     top: 45px;
     display: block;
     font-family: Lato, sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     padding: 0;
     margin:0;
 }
@@ -288,9 +292,10 @@ footer {
 
 .languageslist {
     font-family: Lato, sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     color: #fafafa;
     margin-top: 15px;
+    padding-left: 20px;
 }
 
 .languageslist li {
@@ -333,12 +338,12 @@ footer {
 .date3,
 .date4,
 .date5 {
-    border-left: 1px solid #313639;
+    border-right: 1px solid #313639;
     font-family: Lato, sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     color: #313639;
-    text-align: justify;
-    padding-left: 10px!important;
+    text-align: right;
+    padding-right: 10px!important;
 }
 
 .experience1,
@@ -347,10 +352,10 @@ footer {
 .experience4,
 .experience5 {
     font-family: Lato, sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     color: #313639;
-    text-align: right;
-    padding-right: 10px!important;
+    text-align: justify;
+    padding-left: 10px!important;
 }
 
 .headingstrong {
@@ -426,7 +431,7 @@ footer {
 
 .projecttitle {
     font-family: Lato, sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: bold;
     padding-top: 15px;
     padding-bottom: 15px;
@@ -486,6 +491,10 @@ footer {
 }
 
 @media (min-width: 541px) and (max-width: 991px) {
+    .colortransparency {
+    background-color: transparent;
+    }
+    
     .myphoto,
     .educationphoto,
     .workphoto {
@@ -502,6 +511,10 @@ footer {
 }
 
 @media(max-width: 540px) {
+    .colortransparency {
+    background-color: transparent;
+    }
+    
     .myphoto,
     .educationphoto,
     .workphoto {
