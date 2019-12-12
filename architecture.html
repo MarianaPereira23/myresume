@@ -71,19 +71,56 @@
                 <div class="col">
                     <h3>Portfolio</h3>
                     <div class="row no-gutters projectlist">
-                        <div class="col-lg-6 project">
+                        <div class="col-12 project">
                             <h6 class="projecttitle">Palace of the Rose - Charm Hotel</h6>
-                            <img src="assets/images/palacerose.jpg" class="projectphoto">
+                            <!--Carousel made with the help of Bootstrap and w3shools.com-->
+                            <div id="carousel1" class="carousel slide" data-ride="carousel">
+                                <!--Carousel indicators-->
+                                <ol class="carousel-indicators">
+                                    <li data-target="#carousel1" data-slide-to="0" class="active"></li>
+                                    <li data-target="#carousel1" data-slide-to="1"></li>
+                                    <li data-target="#carousel1" data-slide-to="2"></li>
+                                    <li data-target="#carousel1" data-slide-to="3"></li>
+                                </ol>
+                                <!--Slides wrapper-->
+                                <div class="carousel-inner" role="listbox">
+                                    <div class="item active">
+                                        <img src="assets/images/palacerose.jpg" class="projectphoto">
+                                        <div class="carousel-caption">
+                                            <p>Exterior Render of the Hotel</p>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <img src="assets/images/palacerose.jpg" class="projectphoto">
+                                        <div class="carousel-caption">
+                                            <p>Entry Plan</p>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <img src="assets/images/palacerose.jpg" class="projectphoto">
+                                        <div class="carousel-caption">
+                                            <p>Detail Section</p>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <img src="assets/images/palacerose.jpg" class="projectphoto">
+                                        <div class="carousel-caption">
+                                            <p>Street Facade</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--Here ends the Carousel-->
                         </div>
-                        <div class="col-lg-6 project">
+                        <div class="col-12 project">
                             <h6 class="projecttitle">Hotel Descobrimentos</h6>
                             <img src="assets/images/hoteldescobrimentos.jpg" class="projectphoto">
                         </div>
-                        <div class="col-lg-6 project">
+                        <div class="col-12 project">
                             <h6 class="projecttitle">Housing in Entrecampos</h6>
                             <img src="assets/images/housingentrecampos.jpg" class="projectphoto">
                         </div>
-                        <div class="col-lg-6 project">
+                        <div class="col-12 project">
                             <h6 class="projecttitle">Crismina Concert Hall</h6>
                             <img src="assets/images/crisminaconcerthall.jpg" class="projectphoto">
                         </div>
@@ -125,5 +162,7 @@
     
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </body>
 </html>

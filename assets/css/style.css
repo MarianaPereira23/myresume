@@ -32,7 +32,7 @@
 }
 
 .projectphoto {
-    width: 100%;
+    width: 80%;
     background-size: cover;
 }
 
@@ -429,12 +429,23 @@ footer {
     list-style-type: upper-roman;
 }
 
+.project {
+    text-align: center;
+}
+
 .projecttitle {
     font-family: Lato, sans-serif;
     font-size: 18px;
     font-weight: bold;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    text-decoration: underline;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.carousel-caption p {
+    color: #313639;
+    font-family: Lato, sans-serif;
+    font-size: 18px;
 }
 
 .webdevelopment {
