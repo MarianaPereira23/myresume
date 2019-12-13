@@ -11,8 +11,7 @@
 }
 
 .myphoto {
-    border-radius: 50%;
-    width: 70%;
+    width: 100%;
     background-position: center;
 }
 
@@ -191,7 +190,7 @@ footer {
 }
 
 .aboutmecontent {
-    padding: 0px 0px 40px;
+    padding-top: 20px
 }
 
 .aboutmeinfo {
