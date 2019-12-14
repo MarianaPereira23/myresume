@@ -33,6 +33,7 @@
 .projectphoto {
     width: 80%;
     background-size: cover;
+    margin: auto;
 }
 
 /*    HEADER & HOME   */
@@ -50,7 +51,7 @@
 }
 
 .colortransparency {
-    background-color: rgba(49,54,57,0.25)
+    background-color: rgba(49,54,57,0.25);
 }
 
 .navbar {
@@ -441,10 +442,17 @@ footer {
     padding-bottom: 50px;
 }
 
-.carousel-caption p {
-    color: #313639;
-    font-family: Lato, sans-serif;
-    font-size: 18px;
+.carousel-indicators {
+    width: 100%;
+    margin: auto;
+    padding-bottom: 5px;
+}
+
+.carousel-indicators li {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: none;
 }
 
 .webdevelopment {
