@@ -36,6 +36,11 @@
     margin: auto;
 }
 
+.webphoto {
+    width: 100%;
+    background-size: cover;
+}
+
 /*    HEADER & HOME   */
 
 .home {
@@ -497,18 +502,39 @@ footer {
 }
 
 .projectweb {
-    height: 200px;
-    width: 300px;
-    background-color: #313639;
+    width: 100%;
     text-align: center;
-    padding-top: 20px;
-    margin-top: 35px;
+    margin: 50px 0px;;
+    background-color: #313639;
+    border: 3px solid #fafafa;
 }
 
 .projectwebtitle {
     font-family: Lato, sans-serif;
+    font-size: 18px;
+    color: #fafafa;
+    padding-top: 20px;
+    text-decoration: underline;
+}
+
+.projectweb p {
+    font-family: Lato, sans-serif;
     font-size: 16px;
     color: #fafafa;
+    font-weight: 300;
+}
+
+.projectweb a i {
+    width: 60px;
+    height: 60px;
+    padding: 25px 0;
+    border-radius: 50%;
+    font-size: 25px;
+    line-height: 7px;
+    text-align: center;
+    color: #313639;
+    background-color: #f7dad5;
+    margin: 15px;
 }
 
 /*    MEDIA QUERIES    */
