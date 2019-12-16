@@ -11,23 +11,34 @@
 }
 
 .myphoto {
-    width: 100%;
+    max-height: 100%;
+    max-width: 100%;
     background-position: center;
+    position: absolute;
+    bottom: 0%;
 }
 
 .educationphoto {
-    width: 100%;
+    max-height: 100%;
+    max-width: 100%;
     background-position: center;
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
 }
 
 .workphoto {
-    width: 100%;
+    max-height: 100%;
+    max-width: 100%;
     background-position: center;
+    position: absolute;
+    bottom: 0%;
 }
 
 .photocontainer {
     margin: 0px;
     padding: 0px;
+    position: relative;
 }
 
 .projectphoto {
