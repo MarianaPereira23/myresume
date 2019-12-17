@@ -27,9 +27,9 @@ To keep the website simple and easy to navigate I decided to put all the informa
 
 ### Skeleton Plane
 
--	[Home page wireframe]()
--	[Architecture page wireframe]()
--	[Web Development page wireframe]()
+-	[Home page wireframe](wireframes/home.jpg)
+-	[Architecture page wireframe](wireframes/architecture.jpg)
+-	[Web Development page wireframe](wireframes/webdevelopment.jpg)
 
 ### Surface Plane
 
