@@ -63,6 +63,10 @@ In the future I intend to:
 
 ## Deployment
 
+This project is hosted by GitHub Pages and the deployed site should update immediately in case there is any change to the master branch.
+
+To run the code locally just type “git clone https://github.com/MarianaPereira23/myresume.git” into the terminal.
+
 ## Credits
 
 ### Content 
