@@ -61,6 +61,12 @@ In the future I intend to:
 
 ## Testing
 
+The user stories goals for my portfolio website were achieved: it is simple and clear to navigate, yet efficient in giving all the pertinent information about me and my work, including my photo in case you are viewing the website on a desktop.
+
+All the links to different websites (such as social media links) or, in case of the download cv, files will open in a new tab so as not to leave my website. Clicking on the contact me link in the footer will immediately open the user’s designated email and automatically fill the “To” field with my email address.
+
+This site eas tested in different browsers (Safari, Chrome, Firefox and Internet Explorer) and in different devices (Mac Pro, Macbook Pro, Windows PC, Iphone 7 Plus, Xiaomi Redmi Note 8 Pro, Huawei, Ipad Mini and Samsung) to ensure it works in all platforms. During the testing phase I realized that both in mobile and tablet devices the website had some design flaws (such as lack of margins or unreadable navbav when open), but also that the collapsed navbar only worked correctly in the Home Page. If you were in the Architecture Page you could not click on any of the links bellow the link of that current page, and the same went for the Web Development Page. Those problems were addressed and you can now navigate freely between the three pages in all devices. 
+
 ## Deployment
 
 This project is hosted by GitHub Pages and the deployed site should update immediately in case there is any change to the master branch.
