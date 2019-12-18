@@ -581,6 +581,21 @@ footer {
     .nav-item a:hover {
         font-weight: bold;
     }
+
+    .navbar-collapse {
+        display: flex;
+    }
+
+    .navbar-nav {
+        padding: 0px;
+        height: 100%;
+        display: flex;
+    }
+
+    .nav-item {
+        background-color: rgba(49,54,57,0.1);
+        padding-right: 10px;
+    }
 }
 
 @media(max-width: 540px) {
@@ -606,5 +621,24 @@ footer {
         font-size: 20px;
         height: 100%;
         padding-top: 30px;
+    }
+
+    .navbar-collapse {
+        display: flex;
+    }
+
+    .navbar-nav {
+        padding: 0px;
+        height: 100%;
+        display: flex;
+    }
+
+    .nav-item {
+        background-color: rgba(49,54,57,0.5);
+        padding-right: 10px;
+    }
+
+    .aboutmecontent {
+        padding-left: 25px;
     }
 }
