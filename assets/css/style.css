@@ -90,16 +90,12 @@
     border: transparent;
 }
 
-.navigation {
-    height: 100%;
-}
-
 .navbar-nav {
     height: 100%;
     padding: 30px 0px;
 }
 
-.nav-item a {
+.nav-item {
     text-decoration: none;
     font-family: Oswald, sans-serif;
     font-size: 20px;
