@@ -48,9 +48,9 @@ This site uses the collapsed navbar feature from Bootstrap for phones and most t
 ### Features Left to Implement
 
 In the future I intend to:
--	add any other technology I learn during the course to the Full Stack Web Development page (or after);
--	add any other project I develop to the Full Stack Web Development page, namely milestones 2,3 and 4 projects;
--	update my cv to include web development information and replace the existing one.
+-	Add any other technology I learn during the course to the Full Stack Web Development page (or after);
+-	Add any other project I develop to the Full Stack Web Development page, namely milestones 2,3 and 4 projects;
+-	Update my cv to include web development information and replace the existing one.
 -	Change the skills circles to progress circles
 
 ## Technologies used
@@ -65,7 +65,7 @@ The user stories goals for my portfolio website were achieved: it is simple and 
 
 All the links to different websites (such as social media links) or, in case of the download cv, files will open in a new tab so as not to leave my website. Clicking on the contact me link in the footer will immediately open the user’s designated email and automatically fill the “To” field with my email address.
 
-This site eas tested in different browsers (Safari, Chrome, Firefox and Internet Explorer) and in different devices (Mac Pro, Macbook Pro, Windows PC, Iphone 7 Plus, Xiaomi Redmi Note 8 Pro, Huawei, Ipad Mini and Samsung) to ensure it works in all platforms. During the testing phase I realized that both in mobile and tablet devices the website had some design flaws (such as lack of margins or unreadable navbav when open), but also that the collapsed navbar only worked correctly in the Home Page. If you were in the Architecture Page you could not click on any of the links bellow the link of that current page, and the same went for the Web Development Page. Those problems were addressed and you can now navigate freely between the three pages in all devices. 
+This site eas tested in different browsers (Safari, Chrome, Firefox and Internet Explorer) and in different devices (Mac Pro, Macbook Pro, Windows PC, Iphone 7 Plus, Xiaomi Redmi Note 8 Pro, Huawei, Ipad Mini and Samsung) to ensure it works in all platforms. During the testing phase I realized that both in mobile and tablet devices the website had some design flaws (such as lack of margins or unreadable navbav when open), but also that the collapsed navbar only worked correctly in the Home Page. If you were in the Architecture Page you could not click on any of the links bellow the link of that current page, and the same went for the Web Development Page. Those problems were addressed and you can now navigate freely between the three pages in all devices, as well as use the download cv link present in the navbar in all pages. 
 
 ## Deployment
 
@@ -91,8 +91,8 @@ The hover feature present in the navbar (when not collapsed) and the timeline in
 
 The collapsed navbar was made with the help of Bootstrap documentation.
 
-The images carousel in the architectural projects were made with the help of Bootstrap documentation and [W3 schools](https://www.w3schools.com/bootstrap/bootstrap_carousel.asp)
+The images carousel in the architectural projects were made with the help of Bootstrap documentation and [W3 schools](https://www.w3schools.com/bootstrap/bootstrap_carousel.asp).
 
-This README was made with the help of the README structure provided [here](https://github.com/Code-Institute-Solutions/readme-template)
+This README was made with the help of the README structure provided [here](https://github.com/Code-Institute-Solutions/readme-template).
 
 
